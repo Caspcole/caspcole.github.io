@@ -26,6 +26,7 @@ body {
 .background {
   background: #0d1011 url("../pics/wall.jpg") no-repeat center fixed;
   background-size: cover;
+  background-position: center;
   position: fixed;
   left: 0;
   top: 0;

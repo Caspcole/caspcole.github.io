@@ -20,14 +20,14 @@ body {
   background-color : var(--primary);
   text-align       : center;
   margin           : 0px;
-  background:url(pics/wall.jpg);
+  background:url(pics/wall.gif) #1d2021 no-repeat center fixed;
   background-size:cover;
 
 }
 
 /* background from tacoanon*/
 .background {
-  background: #0d1011 url("../pics/wall.jpg") no-repeat center fixed;
+  /*background: #0d1011 url("../pics/wall.jpg") no-repeat center fixed;*/
   background-size: cover;
   background-position: center;
   position: fixed;

@@ -85,7 +85,8 @@ object {
   margin-left : 35%;
   margin-top  : 10%;
   width       : 30%;
-  background  : var(--primary);
+  /*background  : var(--primary);*/
+  background: rgba(0, 0, 0, 0.23);
 }
 
 #underline {

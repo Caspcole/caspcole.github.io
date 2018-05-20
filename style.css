@@ -20,7 +20,7 @@ body {
   background-color : var(--primary);
   text-align       : center;
   margin           : 0px;
-  background:url(pics/wall.gif) #1d2021 no-repeat center fixed;
+  background:url("pics/wall.jpg") #1d2021 no-repeat center fixed;
   background-size:cover;
 
 }
@@ -43,7 +43,7 @@ a:link, a:visited, a:hover{
 }
 
 #search_bar {
-  margin-top       : 10%; /*15% default*/
+  margin-top       : 23%; /*15% default*/
   font-family      : "Product Sans";
   font-size        : 16px;
   text-align       : center;
@@ -90,7 +90,7 @@ object {
   margin-top  : 10%;
   width       : 30%;
   /*background  : var(--primary);*/
-  background: rgba(0, 0, 0, 0.23);
+  background: rgba(29,32,33, 0.0);
 }
 
 #underline {
@@ -99,7 +99,7 @@ object {
   padding       : 0px 0px 0px 0px;
   width         : 0%;
   border        : none;
-  border-bottom : 1px solid var(--accent);
+  border-bottom : 0px solid var(--accent);
 
   transition: 0.2s ease;
 }

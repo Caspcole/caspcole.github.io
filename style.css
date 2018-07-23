@@ -2,9 +2,10 @@
 
   --primary          : #1d2021; /*1d2021*/
   --primary-light    : #606060;
-  --accent           : #8ec07c;
+  --accent           : #4876b8; /*8ec07c, 4876b8, 5c83ba, 366dba*/
   --foreground       : #d5c4a1;
   --foreground-light : #858585;
+  --list-light       : #bfb494; /*b5b5a4*/
 
 }
 
@@ -20,7 +21,7 @@ body {
   background-color : var(--primary);
   text-align       : center;
   margin           : 0px;
-  background:url("pics/wall.jpg") #1d2021 no-repeat center fixed;
+  background:url("pics/common-room.jpg") #1d2021 no-repeat center fixed;
   background-size:cover;
 
 }
@@ -132,15 +133,15 @@ ul {
 }
 
 ul > li > p {
-    color: #b5b5a4;
+    color: var(--list-light);
     font-weight: bold;
     text-align: left;
-    border-bottom: 1px solid #b5b5a4;
+    border-bottom: 1px solid var(--list-light);
     padding-right: 100%;
 }
 
 ul > li > a {
-    color: #b5b5a4;
+    color: var(--list-light);
     outline: none;
     display: block;
     text-decoration: none;
@@ -150,5 +151,5 @@ ul > li > a {
 
 ul > li > a:hover {
     color: #222222;
-    background-color: #b5b5a4;
+    background-color: var(--list-light);
 }

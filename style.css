@@ -21,7 +21,7 @@ body {
   background-color : var(--primary);
   text-align       : center;
   margin           : 0px;
-  background:url("pics/common-room.jpg") #1d2021 no-repeat center fixed;
+  background:url("pics/wall.jpg") #1d2021 no-repeat center fixed;
   background-size:cover;
 
 }

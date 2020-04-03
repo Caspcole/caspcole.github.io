@@ -1,34 +1,36 @@
-<!doctype html>
-
-<title>Home</title>
+<!DOCTYPE html>
 
 <body>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <link rel="stylesheet" type='text/css' href="style.css">
+    <meta charset="utf-8">
   </head>
 
   <script>
-  window.onkeyup = keyup;
+    window.onkeyup = keyup;
 
-  var inputTextValue;
-  var logo = document.getElementById("logo");
-  var icons = document.getElementById("icons");
+    var inputTextValue;
+    var logo = document.getElementById("logo");
+    var icons = document.getElementById("icons");
 
-  function keyup(e) {
-    inputTextValue = e.target.value;
-    if (e.keyCode == 13) {
-      window.location = "https://duckduckgo.com/?q=" + inputTextValue;
+    function keyup(e) 
+    {
+      inputTextValue = e.target.value;
+      if (e.keyCode == 13) 
+      {
+        window.location = "https://duckduckgo.com/?q=" + inputTextValue;
+      }
     }
-  }
-   </script>
+  </script>
 
-    <div id="container">
-      <input id="search_bar" style="search" type="text" spellcheck="false" onKeydown="Javascript: if (event.keyCode == 13) search();",
-      onfocus="document.getElementById('underline').style.width = '100%'; document.getElementById('search_bar').style.borderBottom = '2px solid var(--accent)';",
-      onblur="document.getElementById('underline').style.width = '0%'; document.getElementById('search_bar').style.borderBottom = '2px solid var(--foreground-light)';" autofocus>
-      <div id="underline"></div>
-    </div>
-<!--
+  <div id="container">
+    <input id="search_bar" style="search" type="text" spellcheck="false" onKeydown="Javascript: if (event.keyCode == 13) search();",
+    onfocus="document.getElementById('underline').style.width = '100%'; document.getElementById('search_bar').style.borderBottom = '2px solid var(--accent)';",
+    onblur="document.getElementById('underline').style.width = '0%'; document.getElementById('search_bar').style.borderBottom = '2px solid var(--foreground-light)';" autofocus>
+    <div id="underline"></div>
+  </div>
+  <!--
     <div id="icons", style="font-size:32px">
 
       <a href="https://github.com/"><object data="./icons/github.svg" type="image/svg+xml"></object></a>
@@ -41,56 +43,50 @@
       <a href="https://getpocket.com/a/queue/"><object data="./icons/pocket.svg" type="image/svg+xml"></object></a>
 
     </div>
--->
-    <!-- imported form mpcsh -->
-    <div class="container">
+  -->
+  <!-- imported form mpcsh -->
+  <div class="container">
+    <div class="favorites">
+        <div class="favorites-list">
+            <ul>
+                <li><p>productivity</p></li>
+                <li><a href="https://mail.google.com/mail/u/0/">gmail main</a></li>
+                <li><a href="https://drive.google.com/">google drive</a></li>
+                <li><a href="https://drive.google.com/drive/folders/0B7p1ByORtxXoVVhFZGliYVNFOW8">caspian's school</a></li>
+                <li><a href="https://calendar.google.com">calendar</a></li>
+            </ul>
+        </div>
 
-              <div class="favorites">
-                  <div class="favorites-list">
-                      <ul>
-                          <li><p>productivity</p></li>
-                          <li><a href="https://mail.google.com/mail/u/0/">gmail main</a></li>
-                          <li><a href="https://drive.google.com/">google drive</a></li>
-                          <li><a href="https://drive.google.com/drive/folders/0B7p1ByORtxXoVVhFZGliYVNFOW8">caspian's school</a></li>
-                          <li><a href="https://calendar.google.com">calendar</a></li>
-                      </ul>
-                  </div>
+        <div class="favorites-list">
+            <ul>
+                <li><p>news</p></li>
+                <li><a href="https://news.ycombinator.com">hacker news</a></li>
+                <li><a href="https://hackaday.com/blog/">hackaday blog</a></li>
+                <li><a href="https://old.reddit.com/">reddit</a></li>
+                <li><a href="https://xkcd.com">xkcd</a></li>
+            </ul>
+        </div>
 
-                  <div class="favorites-list">
-                      <ul>
-                          <li><p>news</p></li>
-                          <li><a href="https://n-o-d-e.news/">n-o-d-e feed</a></li>
-                          <li><a href="https://news.ycombinator.com">hacker news</a></li>
-                          <li><a href="https://old.reddit.com/">reddit</a></li>
-                          <li><a href="https://xkcd.com">xkcd</a></li>
-                      </ul>
-                  </div>
+        <div class="favorites-list">
+            <ul>
+                <li><p>communication</p></li>
+                <li><a href="https://web.groupme.com/chats/">groupme</a></li>
+                <li><a href="https://discordapp.com/channels/@me">discord</a></li>
+                <li><a href="https://www.instagram.com/">instagram</a></li>
+                <li><a href="https://facebook.com">facebook</a></li>
+            </ul>
+        </div>
 
-                  <div class="favorites-list">
-                      <ul>
-                          <li><p>communication</p></li>
-                          <li><a href="https://web.groupme.com/chats/">groupme</a></li>
-                          <li><a href="https://discordapp.com/channels/@me">discord</a></li>
-                          <li><a href="https://www.instagram.com/">instagram</a></li>
-                          <li><a href="https://facebook.com">facebook</a></li>
-                      </ul>
-                  </div>
-
-                  <div class="favorites-list">
-                      <ul>
-                          <li><p>school</p></li>
-                          <li><a href="https://my.oc.edu">my oc</a></li>
-                          <li><a href="https://bb.oc.edu">blackboard</a></li>
-                          <li><a href="https://www.duolingo.com/"> duolingo</a></li>
-                          <li><a href="https://www.codecademy.com/learn">codeacademy</a></li>
-                      </ul>
-                  </div>
-              </div>
-
-
+        <div class="favorites-list">
+            <ul>
+                <li><p>school</p></li>
+                <li><a href="https://my.oc.edu">my oc</a></li>
+                <li><a href="https://bb.oc.edu">blackboard</a></li>
+                <li><a href="https://cyberskyline.com/competition/dashboard">ncl dash</a></li>
+                <li><a href="https://www.duolingo.com/"> duolingo</a></li>
+            </ul>
+        </div>
+    </div>
   </div>
 
-
 </body>
-</head>
-
